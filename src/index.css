@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --dark-navy: #1a1a2e;
+    --navy-deep: #16213e;
+    --navy-mid: #1e2a4a;
+    --navy-light: #2a3a5c;
+    --moroccan-gold: #D4A574;
+    --gold-light: #E8C9A0;
+    --gold-dark: #B88A5A;
+    --warm-cream: #e8d5b7;
+    --cream-light: #f5efe6;
+  }
+
+  body {
+    background: linear-gradient(180deg, var(--dark-navy) 0%, var(--navy-deep) 100%);
+    color: var(--warm-cream);
+    font-family: 'Inter', system-ui, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-display { font-family: 'Playfair Display', Georgia, serif; }
+.font-mono { font-family: 'JetBrains Mono', monospace; }
